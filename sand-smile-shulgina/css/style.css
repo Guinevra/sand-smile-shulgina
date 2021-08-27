@@ -1,0 +1,174 @@
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/open-sans-v23-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/open-sans-v23-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600 - latin_cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("../fonts/open-sans-v23-latin_cyrillic-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/open-sans-v23-latin_cyrillic-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/open-sans-v23-latin_cyrillic-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/open-sans-v23-latin_cyrillic-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-300 - latin_cyrillic */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""),
+    url("../fonts/raleway-v22-latin_cyrillic-300.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/raleway-v22-latin_cyrillic-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/roboto-v27-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v27-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 26px 81px;
+  background-color: #152b3c;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fbf2da;
+}
+
+.main-logo {
+  display: block;
+  margin: 0;
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 49px;
+  color: #fbf2da;
+  text-decoration: none;
+}
+
+.menu-item {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  align-items: center;
+}
+
+.menu-item a {
+  display: block;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #fbf2da;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.first-item {
+  color: #d46240;
+}
+
+.phone-number {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.promo {
+}
+
+.promo-wrap {
+}
+
+.promo-info {
+}
+
+.promo-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 116px;
+  line-height: 136px;
+  color: rgb(85, 11, 11);
+  text-align: center;
+}
+
+.promo-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: rgb(85, 11, 11);
+  text-align: center;
+}
+
+.some-block {
+  background-image: url("images/promo-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.classes {
+}
+
+.slider {
+}
+
+.locations {
+}
+
+.team {
+}
+
+.contacts {
+}
+
+.footer {
+}
+
+.footer-content {
+}
